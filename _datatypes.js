@@ -15,4 +15,4 @@ console.log(3+3); console.log("jaswnt") // not a good practice
 // symbol=> unique
 // object
 
-console.log(typeof("jaswnt"))
+console.log(typeof("jaswnt")) // 
