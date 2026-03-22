@@ -4,7 +4,6 @@ var Userpassword = "1234"
 userlocation = "Delhi"
 
 
-
 //accountsId=6789   //const value can not be changed / not allowed in java script
  
 console.log(accountsId);
