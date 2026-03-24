@@ -45,7 +45,20 @@ let newScore = "jaswnt"
 
 let valueInNewScore = Number(newScore)
 
-console.log(valueInNewScore)
+//console.log(valueInNewScore)
 
-console.log(typeof(newScore))
+//console.log(typeof(newScore))
 
+//*******************************Operations********************************************** */
+
+
+// console.log(2+2)
+// console.log(2*2)
+// console.log(2/2)
+// console.log(2%2)
+
+// console.log("2" +2)
+// console.log(1+"2")
+// console.log("1"+2+3)
+// console.log(2*"2"+3)
+// console.log((3+4)*3/2)  // user paranthese for these type of calculation best practice
