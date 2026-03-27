@@ -19,7 +19,7 @@
 
 // console.log(undefined==0);
 // console.log(undefined>0);
-// console.log(undefined<0);
+// console.log(undefined<0); // Avoid these type of comparision//
 
 
 // In java script comparison and equality check are both different things.
@@ -31,3 +31,10 @@
 
 console.log("2"==="2") // here it will not check only NOt only check value also check the its data type.
 console.log("abc"==="abc")
+
+
+
+
+// ****************************summary**********************//
+
+// Problem faces when comparison betweeb different data types//
