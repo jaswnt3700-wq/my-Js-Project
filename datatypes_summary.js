@@ -44,16 +44,56 @@ const myFunction = function(){
     console.log("Hello jaswnt")
 
 }
-console.log(typeof heros)
+// console.log(typeof heros)
 
-console.log(typeof myFunction)
+// console.log(typeof myFunction)
+
+//********************************************************************** */
+
+// stack memory for primitive type - Copy System means new copy ban jaandi h
+
+        ///STATCK MEMORY////
+        ////////////////////datatype5
+        ////////////////////datatype4
+        /////////////////// datatype3
+        ///////////////////// datatype2
+        ///////////////////  dataype 1
+       
+        let newName = "jaswnt@gmail.com"
+
+            let anotherName="name"
+                console.log(anotherName)
+                anotherName="johhn@yahoo.com"
+
+                    console.log(newName)
+                    //console.log(anotherName)
 
 
 
+// Heap memory for Non-Primitive type - Refernce share hunda h. Original values v change ho jandi h e.g. House Address
 
+/////////////////////////////
+//                         //
+//      HEAP MEMORY        //
+//                         //
+//                         //
+//                         //
+////////////////////////////
 
+let userOne=  {
 
+ emailId:"jaswnt@gmail.com",
+ password:"asc123",
+ upiID:"abc@sbiok"
 
+}
+
+console.log(userOne)
+
+let userTwo=userOne
+userTwo.emailId="jaswnt@yahhooooo.com"
+console.log(userOne)
+console.log(userTwo)
 
 
 
