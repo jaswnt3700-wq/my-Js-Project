@@ -1,3 +1,5 @@
+// Objects & browser event most important topics Mastry these two modules
+
 // Two types of Data types //
 
 // Primitives & Non-Primitives(reference type)
@@ -19,7 +21,7 @@ let userEmail;
 const id = Symbol('1234')
 const anotherId= Symbol('1234')
 
-console.log(id===anotherId);
+//console.log(id===anotherId);
 
 const bigNumber=123456789987456321n  // Bigint consider
 
@@ -47,7 +49,7 @@ console.log(typeof heros)
 console.log(typeof myFunction)
 
 
-// Objects & browser event most important topics
+
 
 
 
